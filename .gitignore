@@ -1,0 +1,28 @@
+# Ignore personal configuration files
+config.yaml
+config.yml
+*.env
+
+# Ignore model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Ignore dataset content and generated files
+datasets/
+jpg_preview/
+label/
+data_coordinates/
+*.tfrecord.gz
+solar_2023_us.tfrecord.gz
+
+# Ignore logs and output
+runs/
+*.log
+
+# Ignore IDE and Python cache files
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.DS_Store
