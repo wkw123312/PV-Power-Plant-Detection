@@ -64,14 +64,3 @@
 ## Disclaimer
 
 本项目代码已做脱敏处理，已移除个人服务器路径和隐私配置。使用前请自行创建并配置 `config.yaml`，确保所有路径指向本地合法目录。请勿将个人配置文件、模型权重或私有数据提交到公共仓库。
-
-## Git 操作
-
-```bash
-git init
-git add .
-git commit -m "Initial import with sanitized config and docs"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
