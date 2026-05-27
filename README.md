@@ -24,10 +24,6 @@
    ```bash
    pip install -r requirements.txt
    ```
-4. 安装 YAML 支持（如果需要）：
-   ```bash
-   pip install pyyaml
-   ```
 
 ## Usage
 
